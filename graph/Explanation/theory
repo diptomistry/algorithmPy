@@ -1,0 +1,14 @@
+Python lists can function as both a stack and a queue because they support both append and pop operations.
+1)LIFO (Stack):
+When using the pop() function on a list, it removes the last element, effectively simulating a stack's LIFO behavior (Last-In-First-Out).
+
+2)FIFO (Queue):
+When using the pop(0) function on a list, it removes the first element, effectively simulating a queue's FIFO behavior (First-In-First-Out).
+
+#DefaultDictionary:
+A defaultdict in Python is a container that works almost exactly like a regular dictionary,
+but it has one difference: the value fields' data type is specified upon initialization.
+ This means that if you try to access a key that doesn't exist in the defaultdict,
+ it will automatically create a new entry with the default value instead of raising a KeyError.
+
+# adjacency matrix :adjacency matrix is symmetric if adj_matrix[u][v] is equal to adj_matrix[v][u]
